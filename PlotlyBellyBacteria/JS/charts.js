@@ -81,7 +81,7 @@ function buildCharts(sample) {
     console.log(yticks)
 
     // 8. Create the trace for the bar chart. 
-    var barData = [{}
+    var barData = [{
       x: values,
       y: yticks,
       type: "bar",
