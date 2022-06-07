@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Belly Button Biodiversity Big Bacteria Bash</title>
-  <link 
-    rel="stylesheet" 
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link 
-  rel ="stylesheet" 
-  href="static/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    body {background-color: black;}
+    select{color: black;}
+    h5{color: blue;}
+  </style>
 </head>
 
 <body>
@@ -19,14 +19,13 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Bacteria Bonanza</h1>
+        <h1 style = "background-color: gray;">Belly Button Bacteria Bonanza</h1>
         <p>Use interactive buttons below to view data</p>
       </div>
     </div>
-    
     <div class="row">
       <div class="col-md-2">
-          <div class="well">
+        <div class="well">
           <h5>Subject Identifiers:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
